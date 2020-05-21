@@ -7,16 +7,11 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-
 server:
   port: 8765
-
 feign:
   hystrix:
     enabled: true
-
-
-
 eureka:
   client:
     serviceUrl:
