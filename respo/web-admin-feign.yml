@@ -9,9 +9,11 @@ spring:
       content-type: text/html
 server:
   port: 8765
+
 feign:
   hystrix:
     enabled: true
+    #这个东西怎么这么的难呢
 eureka:
   client:
     serviceUrl:
