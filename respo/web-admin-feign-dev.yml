@@ -1,22 +1,18 @@
 spring:
-  appliction:
+  application:
     name: hello-spring-cloud-web-admin-feign
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
-    encoding: UTF-8
+    encoding: utf-8
     servlet:
       content-type: text/html
   zipkin:
     base-url: http://localhost:9411
 server:
   port: 8765
-
-feign:
-  hystrix:
-    enabled: true
-    #这个东西怎么这么的难呢
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
